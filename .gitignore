@@ -1,0 +1,5 @@
+training_data/
+visualization/
+datasets/data_transformed_binary.pkl
+data_preparation/data_transformed_binary.pkl
+results/
