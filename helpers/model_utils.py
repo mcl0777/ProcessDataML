@@ -24,8 +24,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), "..")))
 
 
 # Setze die Schriftart und Schriftgröße global
-plt.rcParams['font.family'] = 'Arial'
-plt.rcParams['font.size'] = 12
+# plt.rcParams['font.family'] = 'Arial'
+# plt.rcParams['font.size'] = 12
 
 
 
