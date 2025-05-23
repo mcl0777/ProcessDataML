@@ -6,7 +6,7 @@ All scripts and notebooks are written in **German**, but this README is in **Eng
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 .
@@ -22,7 +22,7 @@ All scripts and notebooks are written in **German**, but this README is in **Eng
 
 ---
 
-## 🎯 Target Variables
+## Target Variables
 
 This project models and evaluates the following six prediction targets:
 
@@ -35,7 +35,7 @@ This project models and evaluates the following six prediction targets:
 
 ---
 
-## 🧐 ML Models
+## ML Models
 
 Classification:
 
@@ -53,7 +53,7 @@ Regression:
 
 ---
 
-⚙️ Feature Engineering
+## Feature Engineering
 
 The feature engineering is specifically tailored to a thermo-mechanical forming process (Warmumformung) and includes:
 
@@ -77,7 +77,9 @@ new_features (neue konstruktive Merkmale, speziell für Warmumformung)
 
 process_features (prozessspezifische Merkmale, z. B. Bauteiltemperatur, Motordrehzahl)
 
-🔍 Feature Selection & Reduction
+---
+
+## Feature Selection & Reduction
 
 For each target variable, features were reduced using a combination of:
 
@@ -93,17 +95,17 @@ All selection results are documented in best_models/ (e.g. selected_features_Pro
 
 ---
 
-## 🐳 Run with Docker
+## Run with Docker
 
 No need to set up a local Python environment.
 
-### 🧱 1. Build the Docker image
+### 1. Build the Docker image
 
 ```bash
 docker build -t process-data-ml .
 ```
 
-### 🚀 2. Start the container (Jupyter notebook interface)
+### 2. Start the container (Jupyter notebook interface)
 
 ```bash
 docker run -p 8888:8888 process-data-ml
@@ -115,7 +117,7 @@ Then open the browser link shown in the terminal (e.g. `http://127.0.0.1:8888/..
 
 ---
 
-## 📑 Running Locally (without Docker)
+## Running Locally (without Docker)
 
 ### Python Environment
 
@@ -141,7 +143,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Notebooks (Analyses)
+## Notebooks (Analyses)
 
 Launch Jupyter and open one of the following notebooks:
 
@@ -158,7 +160,7 @@ jupyter notebook
 
 ---
 
-## 📊 Results
+## Results
 
 * Model metrics and plots are saved in `results/`
 * Final models and summaries in `best_models/`
@@ -166,7 +168,7 @@ jupyter notebook
 
 ---
 
-## 🛀 Limitations
+## Limitations
 
 * Large datasets (e.g. `.pkl` > 100 MB) are excluded from GitHub via `.gitignore`
 * Models are not deployed for production but built for academic analysis
@@ -174,14 +176,14 @@ jupyter notebook
 
 ---
 
-## 📄 License
+## License
 
 This repository is intended for demonstration and educational use.
 Contact the author for further details if reuse is intended.
 
 ---
 
-## 🙋 Contact
+## Contact
 
 **Author:** Moritz Lepper
 **Project:** Master's thesis in Industrial Data Science / Engineering
