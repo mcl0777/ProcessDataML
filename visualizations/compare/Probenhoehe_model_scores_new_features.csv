@@ -1,6 +1,0 @@
-Metric,XGBoost,AdaBoost,SVR,kNN,Random Forest,Lineare Regression
-Test MSE,0.048567,0.114338,0.12867,0.096299,0.087088,0.189112
-Test MAE,0.11625,0.193922,0.220692,0.130345,0.145155,0.294167
-percent_diff_MSE,7.01937,31.193415,4.707119,0.246596,7.151275,22.15719
-percent_diff_MAE,4.848076,9.847666,9.301789,5.290863,11.705694,14.372473
-best_params,"{'clf__colsample_bytree': 0.5, 'clf__gamma': 0.15, 'clf__learning_rate': 0.05, 'clf__max_depth': 3, 'clf__min_child_weight': 3, 'clf__n_estimators': 144, 'clf__subsample': 0.9}","{'clf__estimator': DecisionTreeRegressor(max_depth=3), 'clf__learning_rate': 0.1, 'clf__n_estimators': 50}","{'clf__C': 0.9, 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}","{'clf__leaf_size': 15, 'clf__n_neighbors': 2, 'clf__p': 1, 'clf__weights': 'uniform'}","{'clf__max_depth': 7, 'clf__min_samples_leaf': 3, 'clf__min_samples_split': 7, 'clf__n_estimators': 60}",{}

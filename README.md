@@ -13,8 +13,8 @@ All scripts and notebooks are written in **German**, but this README is in **Eng
 ├── data_preparation/         # Data preprocessing and feature construction (Datenvorbereitung)
 ├── datasets/                 # Raw and processed datasets (Datensätze)
 ├── helpers/                  # Utility functions (Hilfsfunktionen)
-├── results/                  # Visualizations and model results (Ergebnisse)
-├── visualizations/           # Charts and explanatory graphics (Visualisierungen)
+├── results/                  # Visualizations and model results (Ergebnisse) --> will be created
+├── notebooks/                # Jupyter Notebooks for prediction of the targets
 ├── Dockerfile                # Docker environment specification
 ├── requirements.txt          # Package dependencies
                               # Analysis notebooks (z. ​z. B. `Prozessqualität.ipynb`, `Einbauprognose.ipynb`)
