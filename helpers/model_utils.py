@@ -81,7 +81,7 @@ def direcetion_results (dataset_name, target_name, smote_on, Verkippung, Bauteil
     temp_suffix = "noTemp" if not Bauteil_Temp else ""
     
     # Erstelle die Pfade
-    target_dir = f"results/{target_name}/{balance_suffix}{tilt_suffix}{temp_suffix}/{dataset_name}"
+    target_dir = f"../results/{target_name}/{balance_suffix}{tilt_suffix}{temp_suffix}/{dataset_name}"
     feature_importance_path = f"{target_dir}/{model_name}/feature_importance_{model_name}.csv"
     feature_importance_path_best = f"results/best_models//{target_name}/{balance_suffix}{tilt_suffix}{temp_suffix}/feature_importance_{model_name}.csv"
     target_dir_best = f"results/best_models/{target_name}/{balance_suffix}{tilt_suffix}{temp_suffix}"
